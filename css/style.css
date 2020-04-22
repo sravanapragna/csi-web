@@ -1,0 +1,83 @@
+p{
+  text-align: center;
+}
+.carousel-inner
+{
+  position: relative;
+}
+.text-block {
+
+
+  background-color: white;
+  color: black;
+
+}
+.one{
+  color: black;
+}
+.two
+{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+.a{
+   /* the default for span */
+  width: 100px;
+  height: 100px;
+}
+.img-fluid{
+  border-radius: 10px;
+}
+.four
+{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding-left: 550px;
+  padding-right: 550px;
+}
+.container1space
+{
+  position:absolute;
+  margin-bottom:-80px;
+}
+.container2space
+{
+  position:relative;
+  margin-top:-40px;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checked {
+  color: orange;
+}
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.ho:hover .image {
+  opacity: 0.3;
+}
+.imgtxt
+{
+  color:white;
+
+}
+.column:hover{
+  opacity:0.8;
+}
